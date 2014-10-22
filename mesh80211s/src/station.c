@@ -65,14 +65,14 @@ enum plink_state
     HOLDING,
     BLOCKED
   };
-
+/*
 enum plink_actions
   {
     PLINK_ACTION_UNDEFINED,
     PLINK_ACTION_OPEN,
     PLINK_ACTION_BLOCK,
   };
-
+*/
 int station_dump_callback(struct nl_msg *msg, void *arg)
 {
   struct nlattr *tb[NL80211_ATTR_MAX + 1];

@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(hfn)
 
+find_package(cmake_modules REQUIRED)
 find_package(Eigen REQUIRED)
 find_package(CGAL REQUIRED COMPONENTS Core PATHS /opt/local)
 find_package(catkin REQUIRED COMPONENTS dynamic_reconfigure roscpp
