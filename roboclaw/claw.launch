@@ -1,0 +1,6 @@
+<launch>   
+ <node pkg="roboclaw" type="roboclaw_node" name="motor" respawn="false"
+          output="screen">
+      <param name="broadcast_tf" value="false" />
+    </node>
+</launch>
