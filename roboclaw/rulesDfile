@@ -1,0 +1,2 @@
+#rules.d entry
+KERNEL=="ttyACM*", SUBSYSTEMS=="usb", ATTRS{product}=="USB Roboclaw 2x60A", MODE="0777", SYMLINK+="roboclaw"
